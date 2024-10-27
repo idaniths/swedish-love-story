@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         Your browser does not support the video tag.
       </video>
       <div className="content">
-        <h1 className="video-text">SWEDISH LOVE STORY</h1>
+        <h1 className="header-text">SWEDISH LOVE STORY</h1>
         <Menu />
       </div>
     </div>

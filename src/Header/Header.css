@@ -25,7 +25,7 @@
   /* Content overlay */
   .content {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 251, 0);
@@ -37,10 +37,24 @@
     margin: 0 auto;
   }
   
-  .video-text {
+  .header-text {
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: "Roboto Condensed", sans-serif;
+    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
   }
   
   /* Mobile-first menu styling */
@@ -57,6 +71,13 @@
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
+  }
+
+  @media (min-width: 768px) {
+   .header-text {
+    font-size: 4rem;
+
+   }
   }
   
   
