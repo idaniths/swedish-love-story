@@ -3,6 +3,19 @@
 .menu {
     display: flex;
     justify-content: center;
+    animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
   }
   
   .menu ul {
@@ -13,6 +26,7 @@
   
   .menu li {
     list-style: none;
+    cursor: pointer;
   }
   
   .menu li p {
@@ -25,7 +39,7 @@
   }
   
   .menu li p:hover {
-    color: #ffcc00; /* Highlight color on hover */
+    color: rgb(255, 251, 0);
   }
   
   /* Desktop view adjustments */
