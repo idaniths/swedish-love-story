@@ -1,0 +1,10 @@
+.music-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1.5rem;
+    background-image: url('../../../public/image/desert.jpg');
+    height: 100vh;
+    background-size: cover;
+  }
