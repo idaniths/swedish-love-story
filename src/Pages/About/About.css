@@ -41,14 +41,33 @@
  
   
   
-    @media (min-width: 768px){
-  
+  @media (min-width: 768px){
+    .about-page{
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+      padding-left: 20%;
+      padding-top: 10%;
     }
-  
-    @media (min-width: 1024px) {
-  
+    .about-page nav{
+      padding-right: 1rem;
+      grid-column: 1;
     }
-  
+    .about-container{
+      margin-top: 0;
+      width: 65%;
+      grid-column: 2;
+    }
+   
+  }
+
+  @media (min-width: 1500px) {
+    .about-page {
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+      padding-left: 25%;
+
+    }
+  }
   
     
   

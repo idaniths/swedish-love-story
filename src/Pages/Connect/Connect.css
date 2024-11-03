@@ -42,13 +42,34 @@
   }
   
   
-    @media (min-width: 768px){
-  
+  @media (min-width: 768px){
+    .connect-page{
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+      padding-left: 20%;
+      padding-right: 53%;
+      padding-top: 10%;
     }
-  
-    @media (min-width: 1024px) {
-  
+    .connect-page nav{
+      padding-right: 1rem;
+      grid-column: 1;
     }
+    .connect-container{
+      align-self: start;
+      margin-top: 0;
+      width: 44.5rem;
+      grid-column: 2;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .connect-page {
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+      padding-left: 25%;
+
+    }
+  }
   
   
     

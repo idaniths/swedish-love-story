@@ -8,6 +8,7 @@ const VideoPage: React.FC = () => {
       <nav><Menu/></nav>
 
       <div className="video-container">
+      
         <iframe
           className="youtube-video"
           src="https://www.youtube.com/embed/SO44c9vycWY?si=VgBTfPMZn-l9yBVR"          
@@ -26,6 +27,7 @@ const VideoPage: React.FC = () => {
           title="YouTube Video"
           allowFullScreen
         ></iframe>
+        
       </div>
     </div>
   );
