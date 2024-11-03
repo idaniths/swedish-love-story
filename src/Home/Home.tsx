@@ -1,8 +1,8 @@
 import React from 'react';
 import Menu from '../Menu/Menu';
-import './Header.css';
+import './Home.css';
 
-const Header: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="header-container">
       <video autoPlay loop muted playsInline className="background-video">
@@ -21,4 +21,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Home;
