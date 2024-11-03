@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: start;
   padding: 1.5rem;
-  
   background-image: url('../../../public/image/blacknwhite1.JPG');
   background-size: cover;
   background-attachment: fixed;
@@ -25,7 +24,7 @@
   width: 100%;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7); 
-  padding: 1.5rem; 
+  padding: 0rem 1.5rem 1.5rem 1.5rem; 
   
 }
 
@@ -37,11 +36,12 @@
   .album-container h2 {
     color: white;
     margin-bottom: 0;
+    margin-top: 0.5rem;
     align-self: start;
 
   }
 
-  .album-container p, a {
+  .album-container p {
     font-size: 16px;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
@@ -51,8 +51,9 @@
     
   }
   .single-album{
-    margin-bottom: 2rem;
+    padding: 1.5rem 0 1.5rem 0;
     border-bottom: 1px solid white;
+
   }
   .single-album a{
     text-decoration: none;
