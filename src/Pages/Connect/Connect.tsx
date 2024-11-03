@@ -35,6 +35,13 @@ const ConnectPage: React.FC = () => {
         >
           Facebook
         </a>
+        <a 
+          href="https://linktr.ee/swedishlovestory" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Linktree
+        </a>
 
         </div>
       

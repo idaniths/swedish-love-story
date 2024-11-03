@@ -31,6 +31,7 @@
 
   .album-img{
     width: 100%
+  
   }
 
   .album-container h2 {
@@ -47,6 +48,16 @@
     text-decoration: none;
     color: white;
     align-self: start;
+    
+  }
+  .single-album{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+  }
+  .single-album a{
+    text-decoration: none;
+    color: white;
+    
   }
 
   @media (min-width: 768px){

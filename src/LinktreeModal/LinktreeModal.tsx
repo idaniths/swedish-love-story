@@ -23,7 +23,7 @@ const LinktreeModal: React.FC = () => {
                         Click the button below to visit our Linktree page in a new tab.
                     </p>
                     <Button
-                        onClick={() => window.open("https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#341094184", "_blank")}
+                        onClick={() => window.open("https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#233095368", "_blank")}
                         style={{
                             backgroundColor: '#39E09B',
                             color: '#fff',

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Music.css';
-import LinktreeModal from '../../LinktreeModal/LinktreeModal';
 import Menu from '../../Menu/Menu'
 
 const MusicScreen: React.FC = () => {
@@ -8,14 +7,23 @@ const MusicScreen: React.FC = () => {
     <div className="music-page">
       <nav><Menu/></nav>
         <div className='album-container'>
-        <img className="album-img"
-        src={`${process.env.PUBLIC_URL}/image/wildlife.png`} // Use PUBLIC_URL to reference public assets
-          alt="Album Cover" />
+        <div className='single-album'>
+          <a href="https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#341094184"><img className="album-img"
+          src={`${process.env.PUBLIC_URL}/image/sls-milkys.png`} 
+          alt="Album Cover" /></a>
+          <h2>Milky's Ghost Ship Choir EP</h2>
+          <p>Released: November 2023 </p>
+          <a href="https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#341094184">Listen</a>
+          </div>
+          <div className='single-album'>
+          <a href="https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#233095368"><img className="album-img"
+        src={`${process.env.PUBLIC_URL}/image/wildlife.png`} 
+          alt="Album Cover" /></a>
           <h2>Wildlife</h2>
           <p>Released: November 2021 </p>
-          {/* <a href="https://open.spotify.com/album/6krRyNDqsbnHAkBk5fc9Mp?si=Pi0gxq5lT8WEdpX3Z35jxQ">Listen</a> */}
-
-        <LinktreeModal />
+          <a href="https://linktr.ee/swedishlovestory?lt_utm_source=lt_share_link#233095368">Listen</a>
+          </div>
+       
         </div>
       
     </div>
