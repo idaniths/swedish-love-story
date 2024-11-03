@@ -1,21 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './Menu.css';
 
 const Menu: React.FC = () => {
 
-  const handleScroll = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+ 
   return (
     <nav className="menu">
       <ul>
-      <li><p onClick={() => handleScroll('music')}>Music</p></li>
-        <li><p onClick={() => handleScroll('video')}>Video</p></li>
-        <li><p onClick={() => handleScroll('contact')}>Contact</p></li>
-        <li><p onClick={() => handleScroll('social-media')}>Social Media</p></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/music">Music</Link></li>
+        <li><Link to="/video">Video</Link></li>
+        <li><Link to="/connect">Connect</Link></li>
+        <li><Link to="/about">About</Link></li>
       </ul>
     </nav>
   );

@@ -1,0 +1,54 @@
+
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1.5rem;
+    background-image: url('../../../public/image/gbg.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: start;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .about-page nav{
+    align-self: start;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 1.5rem; 
+    
+  }
+
+  .about-container img{
+    width: 100%;
+  }
+  .about-container p{
+    margin-top: 1rem;
+    color: white;
+  }
+
+
+
+ 
+  
+  
+    @media (min-width: 768px){
+  
+    }
+  
+    @media (min-width: 1024px) {
+  
+    }
+  
+  
+    
+  

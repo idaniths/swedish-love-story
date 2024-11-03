@@ -1,0 +1,55 @@
+
+
+.connect-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1.5rem;
+    background-image: url('../../../public/image/blacknwhite2.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .connect-page nav{
+    align-self: start;
+  }
+  
+  .connect-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 1.5rem; 
+    
+  }
+
+  .connect-container h2 {
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+  }
+
+  .connect-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  
+    @media (min-width: 768px){
+  
+    }
+  
+    @media (min-width: 1024px) {
+  
+    }
+  
+  
+    
+  

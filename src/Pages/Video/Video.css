@@ -1,0 +1,65 @@
+/* General styles (Mobile First) */
+.video-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1.5rem;
+    
+    background-image: url('../../../public/image/bird.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .video-page nav{
+    align-self: start;
+  }
+  
+  
+  .video-container {
+    max-width: 100%; /* Full width on mobile */
+    width: 100%;
+    text-align: center; /* Center text */
+    /* padding: 0 1rem;  */
+  }
+  
+  .youtube-video {
+    width: 100%;
+    height: 250px; /* Smaller height for mobile */
+    border: none; /* Remove border */
+    padding: 1rem 0 1rem 0;
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 768px) {
+    .video-page {
+      padding: 2rem;
+    }
+  
+    .video-container {
+      max-width: 800px; /* Limit width for larger screens */
+    }
+  
+    .youtube-video {
+      height: 450px; /* Larger height for desktop */
+    }
+  }
+  
+  /* Larger screens (Desktops and large tablets) */
+  @media (min-width: 1024px) {
+    .video-page {
+      padding: 3rem;
+    }
+  
+    .video-container {
+      max-width: 1000px; /* Wider max width for large screens */
+    }
+  
+    .youtube-video {
+      height: 550px; /* Increase height further for larger screens */
+    }
+  }
+  
+  

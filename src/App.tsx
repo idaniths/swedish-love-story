@@ -1,19 +1,25 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './Header/Header';
-import Video from './Screens/Video/Video'
-import Music from './Screens/Music/Music'
+import Home from '../src/Header/Header'
+import VideoPage from '../src/Pages/Video/Video';
+import MusicPage from '../src/Pages/Music/Music'
+import ConnectPage from '../src/Pages/Connect/Connect';
+import About from '../src/Pages/About/About';
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-     <Header />
-     <div id="music"><Music /></div>      
-      <div id="video"><Video /></div>
-      <div id="contact">Contact Content</div>
-      <div id="social-media">Social Media Content</div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/video" element={<VideoPage />} />
+        <Route path="/music" element={<MusicPage />} />
+        <Route path="/connect" element={<ConnectPage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
