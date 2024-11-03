@@ -63,6 +63,36 @@
 
   @media (min-width: 768px){
 
+    
+    .music-page{
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+      padding-left: 20%;
+      padding-top: 10%;
+      
+
+    }
+    .music-page nav{
+      padding-right: 1rem;
+      grid-column: 1;
+      display: flex;
+    }
+    .album-container{
+      margin-top: 0;
+      width: 70%;
+      grid-column: 2;
+    }
+    .single-album{
+      display: flex;
+      flex-direction: row;
+   }
+    .album-img{
+      width: 40%;
+      margin-right: 1.5rem;
+    }
+
+  
+
   }
 
   @media (min-width: 1024px) {
