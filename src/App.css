@@ -1,5 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Revalia&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500;700;900&display=swap');
+*{
+  font-family: "exo";
+  font-weight: 400;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
