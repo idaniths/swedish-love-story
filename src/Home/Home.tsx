@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <div className="header-container">
       <video autoPlay loop muted playsInline className="background-video">
-        <source src={`${process.env.PUBLIC_URL}/videos/sls.mp4`} type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/videos/sls-home-video.mp4`} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="logo-wrapper">
