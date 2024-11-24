@@ -23,6 +23,7 @@
     align-items: start;
     width: 100%;
     margin-top: 1rem;
+    margin-bottom: 2rem;
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 1.5rem; 
     
@@ -33,13 +34,9 @@
   }
   .about-container p{
     margin-top: 1rem;
+    margin-bottom: 0;
     color: white;
   }
-
-
-
- 
-  
   
   @media (min-width: 768px){
     .about-page{
@@ -56,6 +53,7 @@
       margin-top: 0;
       width: 65%;
       grid-column: 2;
+      margin-bottom: 2rem;
     }
    
   }
